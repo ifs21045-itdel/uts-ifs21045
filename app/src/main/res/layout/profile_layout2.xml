@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="48sp"
+        android:layout_height="48sp"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Deskripsi jika diperlukan"
+        android:src="@drawable/chat" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="22dp"
+        android:contentDescription="Deskripsi jika diperlukan"
+        android:src="@drawable/product" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_below="@+id/imageButton5"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="14dp"
+        android:contentDescription="Deskripsi jika diperlukan"
+        android:src="@drawable/verifikasi" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/imageButton3"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="25dp"
+        android:contentDescription="Deskripsi jika diperlukan"
+        android:src="@drawable/location" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/imageButton4"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Deskripsi jika diperlukan"
+        android:src="@drawable/bergabung" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="48sp"
+        android:layout_height="48sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Deskripsi jika diperlukan"
+        android:src="@android:drawable/btn_star" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="170dp">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:text="Produk"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 produk"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Performa Chat"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="31%"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Akun Terverifikasi"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="120sp"
+            android:layout_height="match_parent"
+            android:text="Instagram"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Alamat Toko"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jakarta Pusat"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Bergabung"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 tahun "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Penilaian"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.9 dari 5"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+</RelativeLayout>
