@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_famili_icon">Ikon Famili</string>
+    <string name="info_famili_name">Nama Buah</string>
+    <string name="info_famili_desc">Deskripsi</string>
+    <string name="info_famili_periode">Periode Hidup</string>
+    <string name="info_famili_karakteristik">Karekteristik Fisik</string>
+    <string name="info_famili_habitat">Habitat dan Lingungan</string>
+    <string name="info_famili_klasifikasi">Perilaku dan Klasifikasi</string>
+    <string-array name="famili_name">
+        <item>Ankulosaurus</item>
+        <item>Brachiosaurus</item>
+        <item>Diplodocus</item>
+        <item>Parasaurolophus</item>
+        <item>Stegosaurus</item>
+        <item>Triceratops</item>
+        <item>Tyceratops</item>
+        <item>Velociraptor</item>
+    </string-array>
+    <string-array name="famili_icon">
+        <item>@drawable/ankylosaurus</item>
+        <item>@drawable/brachiosaurus</item>
+        <item>@drawable/diplodocus</item>
+        <item>@drawable/parasaurolophus</item>
+        <item>@drawable/stegosaurus</item>
+        <item>@drawable/triceratops</item>
+        <item>@drawable/tyrannosaurus</item>
+        <item>@drawable/velociraptor</item>
+    </string-array>
+    <string-array name="famili_description">
+        <item>Tyrannosaurus rex adalah salah satu dinosaurus karnivora terbesar yang pernah hidup. Dikenal dengan rahang yang kuat dan gigi-gigi yang besar, T. rex adalah pemburu puncak pada zamannya. Tubuhnya besar dan berat dengan lengan depan yang kecil, dan biasanya dianggap sebagai salah satu dinosaurus paling terkenal dalam sejarah.</item>
+        <item>Triceratops adalah dinosaurus herbivora yang memiliki tiga tanduk pada wajahnya. Tubuhnya besar dengan empat kaki yang kokoh. Triceratops adalah pemakan tumbuhan yang hidup dalam kelompok-kelompok kecil. Tanduk-tanduknya mungkin digunakan untuk pertarungan antar individu atau sebagai alat pertahanan terhadap predator.</item>
+        <item>Stegosaurus adalah dinosaurus herbivora yang memiliki barisan besar tulang punggung dan duri di ekornya. Biasanya dianggap sebagai hewan pemakan tumbuhan yang lemah yang mengandalkan perlindungan dari predator dengan menggunakan struktur defensif pada tubuhnya.</item>
+        <item>Velociraptor adalah dinosaurus karnivora yang kecil dan gesit. Dikenal dengan cakarnya yang tajam dan kecepatan berlari yang tinggi, Velociraptor adalah pemburu yang terampil. Meskipun ukurannya kecil, mereka mungkin berburu dalam kelompok untuk menangkap mangsa yang lebih besar.</item>
+        <item>Brachiosaurus adalah dinosaurus herbivora dengan leher yang panjang dan kaki depan yang lebih panjang daripada kaki belakangnya. Mungkin hidup di daerah yang lebat dengan tanaman tinggi dan mungkin menggunakan lehernya yang panjang untuk mencapai daun-daun tinggi tersebut.</item>
+        <item>Diplodocus adalah dinosaurus herbivora besar dengan leher yang panjang dan ekor yang panjang pula. Tubuhnya sangat panjang dan mungkin digunakan untuk mencapai tanaman tinggi. Diperkirakan bahwa mereka adalah hewan yang pemalu dan mungkin hidup dalam kelompok besar untuk perlindungan.</item>
+        <item>Ankylosaurus adalah dinosaurus herbivora yang sangat berat dan dilindungi dengan lempeng tulang dan duri-duri. Ekornya dilengkapi dengan gada besar yang mungkin digunakan sebagai senjata pertahanan terhadap predator. Mungkin hidup dengan cara menggali tanah untuk mencari makanan.</item>
+        <item>Parasaurolophus adalah dinosaurus herbivora dengan tengkorak yang dilengkapi dengan tonjolan panjang yang mungkin digunakan untuk menghasilkan suara atau sebagai alat komunikasi. Mungkin hidup dalam kelompok besar dan berpindah-pindah mencari makanan.</item>
+    </string-array>
+    <string-array name="famili_periode">
+        <item>Tyrannosaurus rex hidup pada periode Kapur Akhir, sekitar 68 hingga 66 juta tahun yang lalu.</item>
+        <item>Triceratops hidup pada periode Kapur Akhir, sekitar 68 hingga 66 juta tahun yang lalu.</item>
+        <item>Stegosaurus hidup pada periode Jurasik Akhir, sekitar 155 hingga 150 juta tahun yang lalu.</item>
+        <item>Velociraptor hidup pada periode Kapur Akhir, sekitar 85 hingga 70 juta tahun yang lalu.</item>
+        <item>Brachiosaurus hidup pada periode Jurasik Akhir, sekitar 154 hingga 153 juta tahun yang lalu.</item>
+        <item>Diplodocus hidup pada periode Jurasik Akhir, sekitar 154 hingga 152 juta tahun yang lalu.</item>
+        <item>Ankylosaurus hidup pada periode Kapur Akhir, sekitar 68 hingga 66 juta tahun yang lalu.</item>
+        <item>Parasaurolophus hidup pada periode Kapur Akhir, sekitar 76 hingga 73 juta tahun yang lalu.</item>
+    </string-array>
+    <string-array name="famili_karakteristik">
+        <item>Tyrannosaurus rex adalah karnivora besar dengan rahang yang kuat dan gigi yang tajam, menjadi predator puncak pada zamannya dengan tubuh yang besar dan berat serta lengan depan yang pendek.</item>
+        <item>Triceratops adalah herbivora berukuran besar dengan tiga tanduk di wajahnya, menggunakan bonyok besar di bagian belakang tengkoraknya sebagai pertahanan atau alat dalam pertarungan antar individu.</item>
+        <item>Stegosaurus adalah herbivora yang memiliki barisan tulang punggung besar dan duri di ekornya, mungkin menjadi hewan yang lambat dan kurang cerdas karena otaknya yang kecil.</item>
+        <item>Velociraptor adalah dinosaurus karnivora kecil dan gesit dengan cakar yang tajam, mungkin berburu dalam kelompok untuk menangkap mangsa yang lebih besar dengan otak yang relatif besar.</item>
+        <item>Brachiosaurus adalah herbivora dengan leher yang panjang dan kaki depan yang lebih tinggi daripada kaki belakangnya, mungkin hidup di daerah yang berlimpah dengan tanaman tinggi dan menggunakan leher panjangnya untuk mencapai daun-daun tersebut.</item>
+        <item>Diplodocus adalah herbivora besar dengan leher dan ekor yang panjang, diperkirakan menjadi pemakan tumbuhan yang pemalu dan mungkin hidup dalam kelompok besar untuk perlindungan.</item>
+        <item>Ankylosaurus adalah herbivora berat bertubuh baju besi dengan lempeng tulang dan duri di tubuhnya, dilengkapi dengan gada besar di ujung ekornya yang mungkin digunakan sebagai senjata pertahanan.</item>
+        <item>Parasaurolophus adalah herbivora dengan tengkorak yang dilengkapi dengan tonjolan panjang, diperkirakan digunakan untuk menghasilkan suara atau sebagai alat komunikasi antar anggota spesiesnya.</item>
+    </string-array>
+    <string-array name="famili_habitat">
+        <item>Habitatnya mungkin terdiri dari dataran yang luas dengan vegetasi yang cukup, serta sungai atau danau untuk memenuhi kebutuhan air. Mungkin hidup di daerah yang beriklim hangat atau sedang, dengan musim yang cukup stabil.</item>
+        <item>Triceratops kemungkinan hidup di daerah dataran rendah yang luas dengan vegetasi melimpah, termasuk hutan-hutan lebat dan padang rumput. Mungkin juga ditemukan di sepanjang tepi sungai atau daerah rawa.</item>
+        <item>Stegosaurus mungkin hidup di daerah yang lebih kering dengan vegetasi semak belukar dan hutan jarang. Lingkungannya mungkin didominasi oleh tanaman pohon rendah dan semak belukar.</item>
+        <item>Velociraptor mungkin hidup di daerah dataran terbuka atau hutan yang jarang dengan vegetasi yang cukup untuk menyembunyikan dan menangkap mangsa. Mungkin juga mendiami daerah yang memiliki banyak gua atau lubang sebagai tempat persembunyian.</item>
+        <item>Brachiosaurus kemungkinan hidup di daerah dengan vegetasi lebat seperti hutan hujan atau hutan dataran tinggi yang luas. Mungkin juga terdapat sumber air yang cukup, seperti sungai atau danau.</item>
+        <item>Diplodocus mungkin hidup di daerah yang terbuka seperti padang rumput atau dataran rendah yang luas dengan vegetasi yang cukup untuk mencukupi kebutuhan makanannya. Mungkin juga mendiami daerah yang memiliki akses mudah ke air.</item>
+        <item>Ankylosaurus mungkin hidup di berbagai habitat, termasuk hutan lebat, dataran rendah, atau daerah berbatu dengan vegetasi semak belukar. Mungkin juga sering ditemukan di dekat sungai atau rawa.</item>
+        <item>Parasaurolophus kemungkinan mendiami daerah dataran rendah dengan vegetasi lebat, seperti hutan lembab atau padang rumput yang terbuka. Mungkin juga sering berkumpul di sekitar daerah rawa atau sungai untuk mencari makanan dan air.</item>
+    </string-array>
+    <string-array name="famili_klasifikasi">
+        <item>Tyrannosaurus rex adalah predator puncak yang agresif, hidup secara soliter atau dalam kelompok kecil. Secara klasifikasi, termasuk dalam ordo Saurischia, famili Tyrannosauridae, dengan nama ilmiah Tyrannosaurus rex.</item>
+        <item>Triceratops hidup dalam kelompok sosial kecil, menggunakan tanduknya sebagai alat pertahanan dan untuk memperoleh status dalam kelompok. Klasifikasinya termasuk dalam ordo Ornithischia, famili Ceratopsidae, dengan nama ilmiah Triceratops horridus.</item>
+        <item>Stegosaurus mungkin menjadi hewan herbivora yang pasif, bergantung pada pertahanan fisiknya seperti tulang punggung dan duri di ekornya. Klasifikasinya termasuk dalam ordo Ornithischia, famili Stegosauridae, dengan nama ilmiah Stegosaurus stenops.</item>
+        <item>Velociraptor adalah pemburu yang berburu secara berkelompok, menggunakan kecepatan dan keterampilan berburu untuk menangkap mangsa. Secara klasifikasi, termasuk dalam ordo Saurischia, famili Dromaeosauridae, dengan nama ilmiah Velociraptor mongoliensis.</item>
+        <item>Brachiosaurus hidup dalam kelompok besar, memakan tanaman tinggi dengan menggunakan leher panjangnya. Klasifikasinya termasuk dalam ordo Saurischia, famili Brachiosauridae, dengan nama ilmiah Brachiosaurus altithorax.</item>
+        <item>Diplodocus adalah hewan herbivora yang hidup dalam kelompok besar, menggunakan ekornya yang panjang sebagai alat pertahanan terhadap predator. Klasifikasinya termasuk dalam ordo Saurischia, famili Diplodocidae, dengan nama ilmiah Diplodocus longus.</item>
+        <item>Ankylosaurus memiliki perilaku bertahan yang kuat, menggunakan baju besi tulang dan gada di ekornya sebagai pertahanan terhadap predator. Secara klasifikasi, termasuk dalam ordo Ornithischia, famili Ankylosauridae, dengan nama ilmiah Ankylosaurus magniventris.</item>
+        <item>Parasaurolophus hidup dalam kelompok besar, menggunakan tonjolan panjang di tengkoraknya untuk komunikasi antar anggota kelompok atau untuk menghasilkan suara. Klasifikasinya termasuk dalam ordo Ornithischia, famili Hadrosauridae, dengan nama ilmiah Parasaurolophus walkeri.</item>
+    </string-array>
+    <string name="info_tyrannosaurus_icon">Ikon tyrannosaurus</string>
+    <string name="info_tyrannosaurus_name">Nama tyrannosaurus</string>
+    <string name="info_tyrannosaurus_desc">Deskripsi</string>
+    <string name="info_tyrannosaurus_karakteristik">Karakteristik</string>
+    <string-array name="tyrannosaurus_name">
+        <item>Albertosaurus sarcophagus</item>
+        <item>Daspletosaurus torosus</item>
+    </string-array>
+    <string-array name="tyrannosaurus_icon">
+        <item>@drawable/albertosaurussarcophagus</item>
+        <item>@drawable/daspletosaurustorosus</item>
+    </string-array>
+    <string-array name="tyrannosaurus_description">
+        <item>Albertosaurus sarcophagus adalah spesies dinosaurus karnivora yang hidup pada periode Kapur Akhir sekitar 70 juta tahun yang lalu. Dinosaurus ini merupakan anggota dari keluarga Tyrannosauridae dan memiliki ciri khas seperti T. rex, meskipun lebih kecil. Albertosaurus memiliki gigi yang tajam dan kuat serta merupakan pemburu yang efisien dalam kelompok.</item>
+        <item>Daspletosaurus torosus adalah dinosaurus karnivora besar yang juga merupakan anggota dari keluarga Tyrannosauridae. Dinosaurus ini hidup sekitar 77 hingga 74 juta tahun yang lalu pada periode Kapur Akhir. Daspletosaurus memiliki tubuh yang besar, kepala yang besar dengan gigi yang tajam, dan merupakan predator puncak di habitatnya. Nama "Daspletosaurus" sendiri berarti "pembunuh yang mengerikan", merujuk pada kemampuannya sebagai predator yang tangguh.</item>
+    </string-array>
+    <string-array name="tyrannosaurus_karakteristik">
+        <item>Dikenal dengan ukuran besar, rahang kuat, dan kecerdasan sosial tinggi dalam berburu.</item>
+        <item>Memiliki rahang besar dan tajam, kepala besar, serta merupakan pemangsa puncak yang gesit dan berani.</item>
+    </string-array>
+
+</resources>

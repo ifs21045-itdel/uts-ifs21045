@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.PAMPraktikum7"
+        parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/yellow</item>
+    </style>
+    <style name="Theme.PAMPraktikum7"
+        parent="Base.Theme.PAMPraktikum7" />
+</resources>
