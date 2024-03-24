@@ -1,16 +1,19 @@
 // Mendefinisikan paket dari kelas ini
 package com.ifs21045.dinopedia
 
+// Mengimpor kelas yang diperlukan dari aplikasi dinopedia
+import com.ifs21045.dinopedia.Tyrannosaurus
+
 // Mengimpor kelas-kelas yang diperlukan dari library Android
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.ifs21045.dinopedia.databinding.ItemRowFamiliBinding
+import com.ifs21045.dinopedia.databinding.ItemRowTyrannosaurusBinding
 
-// Mendefinisikan kelas ListFamiliAdapter yang merupakan turunan dari RecyclerView.Adapter
-class ListFamiliAdapter(private val listFamili: ArrayList<Famili>) :
-    RecyclerView.Adapter<ListFamiliAdapter.ListViewHolder>() {
+// Mendefinisikan kelas ListTyrannosaurusAdapter yang merupakan turunan dari RecyclerView.Adapter
+class ListTyrannosaurusAdapter(private val listTyrannosaurus: ArrayList<Tyrannosaurus>) :
+    RecyclerView.Adapter<ListTyrannosaurusAdapter.ListViewHolder>() {
 
     // Mendeklarasikan lateinit property untuk menyimpan callback onClick
     private lateinit var onItemClickCallback: OnItemClickCallback
@@ -22,8 +25,8 @@ class ListFamiliAdapter(private val listFamili: ArrayList<Famili>) :
 
     // Override metode onCreateViewHolder untuk membuat ViewHolder
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ListViewHolder {
-        // Membuat binding untuk tampilan item daftar famili
-        val binding = ItemRowFamiliBinding.inflate(LayoutInflater.from(viewGroup.context),
+        // Membuat binding untuk tampilan item daftar tyrannosaurus
+        val binding = ItemRowTyrannosaurusBinding.inflate(LayoutInflater.from(viewGroup.context),
             viewGroup, false)
         // Mengembalikan ViewHolder baru
         return ListViewHolder(binding)
@@ -32,26 +35,26 @@ class ListFamiliAdapter(private val listFamili: ArrayList<Famili>) :
     // Override metode onBindViewHolder untuk mengikat data ke ViewHolder
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        // Mendapatkan objek Famili dari posisi yang diberikan
-        val famili = listFamili[position]
+        // Mendapatkan objek Tyrannosaurus dari posisi yang diberikan
+        val tyrannosaurus = listTyrannosaurus[position]
         // Mengatur gambar dan teks pada tampilan item
-        holder.binding.ivItemFamili.setImageResource(famili.icon)
-        holder.binding.tvItemFamili.text = famili.name
+        holder.binding.ivItemTyrannosaurus.setImageResource(tyrannosaurus.icon)
+        holder.binding.tvItemTyrannosaurus.text = tyrannosaurus.name
         // Menetapkan listener onClick untuk item
         holder.itemView.setOnClickListener {
-            onItemClickCallback.onItemClicked(listFamili[holder.adapterPosition])
+            onItemClickCallback.onItemClicked(listTyrannosaurus[holder.adapterPosition])
         }
     }
 
     // Override metode getItemCount untuk mengembalikan jumlah item dalam daftar
-    override fun getItemCount(): Int = listFamili.size
+    override fun getItemCount(): Int = listTyrannosaurus.size
 
     // Mendefinisikan kelas inner ViewHolder
-    class ListViewHolder(var binding: ItemRowFamiliBinding) :
+    class ListViewHolder(var binding: ItemRowTyrannosaurusBinding) :
         RecyclerView.ViewHolder(binding.root)
 
     // Interface untuk menangani klik item dalam RecyclerView
     interface OnItemClickCallback {
-        fun onItemClicked(data: Famili)
+        fun onItemClicked(data: Tyrannosaurus)
     }
 }

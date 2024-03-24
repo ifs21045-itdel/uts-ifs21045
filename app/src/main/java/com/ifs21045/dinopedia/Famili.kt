@@ -11,4 +11,6 @@ data class Famili(
     var karakteristik: String,
     var habitat: String,
     var klasifikasi: String,
+    var startIndex: Int,
+    var endIndex: Int
 ) : Parcelable
